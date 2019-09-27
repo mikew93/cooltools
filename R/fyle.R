@@ -9,7 +9,7 @@ fyle <- function(name)
   {
     stop('~~~mainDirect must be global string~~~')
   }
-  if(class(object) != "character")
+  if(class(name) != "character")
   {
     stop('~~~name must be a string "like this"~~~')
   }else{
