@@ -7,11 +7,11 @@ directRy <- function(mainDirect)
 {
   if(class(mainDirect) != "character")
   {
-    stop('~~~mainDirect must be a string "like this"~~~')
+    stop("~~~mainDirect must be a string~~~")
   }else{
     mainDirect <- as.character(mainDirect)
   }
-  return(mainDirect)
+  mainDirect <<- mainDirect
 }
 
 # (GNU3 c) 2019 John Michael Adrian Wojahn
