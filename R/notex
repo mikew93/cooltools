@@ -1,0 +1,10 @@
+notex <- function(object)
+{
+  if(class(object) != "character")
+  {
+    stop('~~~object must be a string "like this"~~~')
+  }else{
+    judgement <- exists(object) == F
+  }
+  return(judgement)
+}
