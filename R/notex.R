@@ -1,4 +1,4 @@
-#' Tells If Not In
+#' Tells If Not Extant
 #' @param first An object
 #' @param second An object
 #' @return A boolean
