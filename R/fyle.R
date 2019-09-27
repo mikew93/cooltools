@@ -5,7 +5,7 @@
 
 fyle <- function(name)
 {
-  if(notex("mainDirect")
+  if(notex("mainDirect"))
   {
     stop('~~~mainDirect must be global string~~~')
   }
