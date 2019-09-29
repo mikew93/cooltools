@@ -1,7 +1,7 @@
 Package: cooltools
 Type: Package
 Title: Bioinformatics Helper Functions
-Version: 3.0
+Version: 3.2
 Author: John Michael Adrian Wojahn
 Maintainer: <johnmichaelwojahn@gmail.com>
 Description: Contains various functions to make bioinformatics programming 
