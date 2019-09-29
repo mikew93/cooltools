@@ -20,10 +20,10 @@ complementRy <- function(seq)
     }else if(seq[i] == "C"){
       comp[i,1] <- as.character("G")
     }
+  }
     comp <- paste(comp, collapse = "")
     comp <- as.character(comp)
     comp <<- comp
     return(comp)
-  }
 }
 # (c) 2019 John Michael Adrian Wojahn
