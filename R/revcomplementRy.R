@@ -6,6 +6,7 @@
 revcomplementRy <- function(seq)
 {
   seq <- as.character(seq)
+  seq <- as.character(toupper(seq))
   comp <- as.data.frame(matrix(nrow=length(seq),ncol=1))
   for(i in 1:nrow(comp))
   {
