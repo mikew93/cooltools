@@ -7,7 +7,7 @@ isodd <- function(numb)
 {
   if(class(numb) != "numeric")
   {
-    stop("~~~input must benumeric, please try again~~~")
+    i <- as.numeric(i)
   }else{
     if((i %% 2) != 0)
     {
