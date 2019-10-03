@@ -8,13 +8,12 @@ isodd <- function(numb)
   if(class(numb) != "numeric")
   {
     i <- as.numeric(i)
+  }
+  if((i %% 2) == 0)
+  {
+    judgement <- T
   }else{
-    if((i %% 2) != 0)
-    {
-      judgement <- T
-    }else{
-      judgement <- F
-    }
+    judgement <- F
   }
   return(judgement)
 }
